@@ -1,1 +1,5 @@
-export declare function getPage(pageNumber: any, itemsPerPage: any, array: any): any[];
+export declare function getPage(
+	pageNumber: number,
+	itemsPerPage: number,
+	array: any[]
+): any[];

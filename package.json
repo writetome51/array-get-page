@@ -13,12 +13,14 @@
   },
   "keywords": [
     "array",
-    "manipulation",
-    "content",
+    "get",
     "paginate",
     "pagination",
     "page",
-    "class"
+    "data",
+    "content",
+    "manipulation",
+    "function"
   ],
   "author": "Steve Thompson",
   "license": "MIT",
