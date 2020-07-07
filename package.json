@@ -1,0 +1,40 @@
+{
+  "name": "@writetome51/array-get-page",
+  "version": "0.0.1",
+  "description": "Function that paginates an array",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/writetome51/array-get-page.git"
+  },
+  "keywords": [
+    "array",
+    "manipulation",
+    "content",
+    "paginate",
+    "pagination",
+    "page",
+    "class"
+  ],
+  "author": "Steve Thompson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/writetome51/array-get-page/issues"
+  },
+  "homepage": "https://github.com/writetome51/array-get-page#readme",
+  "devDependencies": {
+    "@writetome51/get-countup-countdown": "^1.0.3",
+    "@writetome51/arrays-match": "^1.0.6"
+  },
+  "dependencies": {
+    "@writetome51/in-range": "^1.0.4",
+    "@writetome51/get-rounded-up-down": "^1.0.11",
+    "@writetome51/not": "^1.0.5",
+    "@writetome51/array-get-head-tail": "^1.0.5",
+    "@writetome51/array-get-adjacent-at": "^1.0.4"
+  }
+}
