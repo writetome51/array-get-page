@@ -12,7 +12,7 @@ export function getPage(pageNumber, itemsPerPage, array): any[] {
 	const firstIndexToGet = (itemsPerPage * (pageNumber - 1));
 
 	if (isLastPage(pageNumber)) return getRemainingItems(firstIndexToGet);
-	else return getAdjacentAt(firstIndexToGet, itemsPerPage, this.data);
+	else return getAdjacentAt(firstIndexToGet, itemsPerPage, array);
 
 
 	function errorIfRequestedPageDoesNotExist(pageNumber) {

@@ -11,7 +11,7 @@ function getPage(pageNumber, itemsPerPage, array) {
     if (isLastPage(pageNumber))
         return getRemainingItems(firstIndexToGet);
     else
-        return array_get_adjacent_at_1.getAdjacentAt(firstIndexToGet, itemsPerPage, this.data);
+        return array_get_adjacent_at_1.getAdjacentAt(firstIndexToGet, itemsPerPage, array);
     function errorIfRequestedPageDoesNotExist(pageNumber) {
         let totalPages = getTotalPages();
         if (totalPages === 0 || not_1.not(in_range_1.inRange([1, totalPages], pageNumber))) {
