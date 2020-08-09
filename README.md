@@ -4,7 +4,7 @@ Paginates the data in `array`.
 `array` is never modified.
 
 ## Examples
-```ts
+```js
 let arr = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20];
 
 console.log(getPage(1, 5, arr));
@@ -35,11 +35,8 @@ console.log(getPage(2, 19, arr));
 `npm i  @writetome51/array-get-page`
 
 ## Loading
-```ts
-// if using TypeScript:
+```js
 import { getPage } from '@writetome51/array-get-page';
-// if using ES5 JavaScript:
-var getPage = require('@writetome51/array-get-page').getPage;
 ```
 
 
