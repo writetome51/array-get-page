@@ -1,6 +1,6 @@
 {
   "name": "@writetome51/array-get-page",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Function that paginates an array",
   "type": "module",
   "main": "dist/index.js",
@@ -30,14 +30,14 @@
   },
   "homepage": "https://github.com/writetome51/array-get-page#readme",
   "devDependencies": {
-    "@writetome51/get-countup-countdown": "^2.0.0",
-    "@writetome51/arrays-match": "^2.0.0"
+    "@writetome51/get-countup-countdown": "^2.0.1",
+    "@writetome51/arrays-match": "^2.0.2"
   },
   "dependencies": {
-    "@writetome51/in-range": "^2.0.0",
-    "@writetome51/get-rounded-up-down": "^2.0.0",
+    "@writetome51/in-range": "^2.0.2",
+    "@writetome51/get-rounded-up-down": "^3.0.0",
     "@writetome51/not": "^2.0.0",
     "@writetome51/array-get-head-tail": "^2.0.0",
-    "@writetome51/array-get-adjacent-at": "^2.0.0"
+    "@writetome51/array-get-adjacent-at": "^2.0.2"
   }
 }
