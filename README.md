@@ -1,4 +1,4 @@
-# getPage(<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pageNumber,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;itemsPerPage,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;array<br>): any[]
+# getPage\<T\>(<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pageNumber,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;itemsPerPage,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;array: T[]<br>): T[]
 
 Paginates the data in `array`.  
 `array` is never modified.

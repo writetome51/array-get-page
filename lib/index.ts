@@ -5,7 +5,7 @@ import { inRange } from '@writetome51/in-range';
 import { not } from '@writetome51/not';
 
 
-export function getPage(pageNumber, itemsPerPage, array): any[] {
+export function getPage<T>(pageNumber, itemsPerPage, array: T[]): T[] {
 
 	errorIfRequestedPageDoesNotExist(pageNumber);
 
